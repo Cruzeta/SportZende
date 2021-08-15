@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <style>
+        aside#lateral {
+            display: block;
+            width: 700px;
+            float: right;
+            padding: 15px;
+            margin-top: 130px;
+        }
+        aside#videolateral {
+            display: block;
+            width: 700px;
+            margin-top: 100px;
+            float: right;
+            padding: 20px;
+        }
+        
+        ul#specs {
+            font-size: 15pt;
+            height: 450px;
+            overflow-y: auto;
+        }
+        
+        footer{
+
+            position:relative
+        }
+        </style>
+
+        <title>SportZende</title>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <h1>Realização de compra</h1>
+            <nav id="menu"> 
+                <ul>
+                    <li><a href="index.html" id="menus">Home</a></li>
+                    <li><a href="nos.html" id="menus">Sobre nós</a></li>
+                    <li><a href="localizacao.html" id="menus">Onde estamos</a></li>
+                    <li><a href="contacto.html" id="menus">Contacto</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <img src="https://cdn.deporvillage.com/cdn-cgi/image/h=575,w=575,dpr=2,f=auto,q=75,fit=contain,background=white/product/fu-12211020349-c_001.jpg" alt="bike estrada" width="500px" style="margin-bottom: -25px;">
+        <aside id="lateral" width="800px">           
+            <p id="preco">Preço:1599€ <br></p>
+            <p>Bicicleta ideal para quem gosta de aventuras.<br></p>
+        <p>Tamanhos disponiveis: S,M,L,XL</p>
+        <p>Quantidade a comprar: <input type="number" name="txtqtd" id="txtqtd" style="width: 30px;" minlength="0" ></p>
+        <p id="total">Valor a pagar: </p>
+        <input type="button" value="Comprar" onclick="compraestrada()"></aside>
+        <aside id="videolateral">
+            <iframe width="600" height="350" src="https://www.youtube.com/embed/gqDAvj-L014" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </aside>
+            
+        <h2>Especificações</h2>
+        <ul id="specs" style="width: 450px;">
+            <li><strong>Quadro:</strong> Carbono de alto módulo C10, tubo principal cônico e integrado, PF30 BB, eixo passante de 142x12mm</li>
+            <li><strong>Garfo:</strong> Carbono monocoque, direção de carbono cônico, eixo passante 100x12mm</li>
+            <li><strong>Rodas dianteira e traseira:</strong> Oval Concepts 524 Disc, 24/28H</li>
+            <li><strong>Travões:</strong> Shimano 105, discos hidraulicos</li>
+        </ul>
+
+        <script src="../js/compraestrada.js"></script>
+
+        <footer>
+            <div class="footer">
+                <ul>
+                    <li id="ano"><strong>Ano Letivo</strong>: <br>
+                    2020/2021</li>
+                    <li id="devs"><strong>Desenvolvedores</strong>:<br>
+                    Tiago Cruz<br>
+                    Dinis Lima</li>
+                    <li id="turma"><strong>Turma</strong>:<br>
+                    1ºTGPSI</li>
+                    <li id="tc"><strong>Tiago Cruz</strong>
+                        <div>
+                            <a href="https://www.instagram.com/tiago_cruzeta_/" target="_blank" >
+                                <img src="https://image.flaticon.com/icons/png/512/717/717392.png" alt="icon instagram">
+                            </a>
+                            <a href="https://t.me/tiago_cruzeta" target="_blank">
+                                <img src="https://image.flaticon.com/icons/png/512/2111/2111708.png" alt="icon telegram">
+                            </a> <br>
+                            <a href="https://github.com/Cruzeta" target="_blank">
+                                <img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="icon github">
+                            </a>
+                            <a href="https://www.facebook.com/profile.php?id=100024770268756" target="_blank">
+                                <img src="https://image.flaticon.com/icons/png/512/2111/2111392.png" alt="icon facebook">
+                            </a>
+                        </div>                       
+                    </li>
+                    <li id="dl"><strong>Dinis Lima</strong>
+                        <div>
+                            <a href="https://www.instagram.com/_lima2105_/">
+                                <img src="https://image.flaticon.com/icons/png/512/717/717392.png" alt="icon instagram">
+                            </a>
+                        </div>                       
+                    </li>
+                </ul>
+            </div>
+        </footer>  
+    </body>
+</html>

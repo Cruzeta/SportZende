@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <style>
+            aside#lateral {
+                display: block;
+                width: 700px;
+                float: right;
+                padding: 15px;
+                margin-top: 80px;
+            }
+            ul#specs {
+            font-size: 15pt;
+            height: 450px;
+            overflow-y: auto;
+        }
+            footer{
+
+                position: relative;
+            }
+        </style>
+        <title>SportZende</title>
+    </head>
+    <body>
+        <header id="cabecalho">
+            <h1>Skates</h1>
+            <nav id="menu"> 
+                <ul>
+                    <li><a href="index.html" id="menus">Home</a></li>
+                    <li><a href="nos.html" id="menus">Sobre nós</a></li>
+                    <li><a href="localizacao.html" id="menus">Onde estamos</a></li>
+                    <li><a href="contacto.html" id="menus">Contacto</a></li>
+                    <li><a href="#">Carrinho</a></li>
+                    <li><a href="login.html">Conta</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <p></p>
+        <img src="https://kitedanmark.b-cdn.net/media/catalog/product/cache/16/image/1000x1000/e4d92e6aceaad517e7b5c12e0dc06587/s/k/skateboard_skateboard_nkx_crown_8-25inch_00_1_1.jpg" width="400px"/>
+        <aside id="lateral">           
+            <p id="preco">Preço: 114.99€ <br></p>
+            <p>Skate ideal para street e para efetuar as manobras que voce deseja.<br></p>
+        <p>Tamanhos disponiveis: 7.75, 8, 8.25</p>
+        <p>Quantidade a comprar:<input type="number" name="txtqtd" id="txtqtd" style="width: 30px;"></p>
+        <p id="total">Valor a pagar: </p>
+        <input type="button" value="Comprar" onclick="compraskate2()"></aside>
+            <h2>Especificações</h2>
+            <ul id="specs">
+                <li><strong>Preço</strong>: 114.99€</li>
+                <li><strong>Tamanho da roda</strong>: 53 mm </li> 
+                <li><strong>Material</strong>: 75% Madeira, 15% Aço, 8% Eu, 12% Lixa;</li>
+                <li><strong>Tamanhos disponiveis</strong>: 7.75, 8, 8.25;</li>
+            </ul>
+
+            <script src="../js/compraskate2.js"></script>
+
+            <footer>
+                <div class="footer">
+                    <ul>
+                        <li id="ano"><strong>Ano Letivo</strong>: <br>
+                        2020/2021</li>
+                        <li id="devs"><strong>Desenvolvedores</strong>:<br>
+                        Tiago Cruz<br>
+                        Dinis Lima</li>
+                        <li id="turma"><strong>Turma</strong>:<br>
+                        1ºTGPSI</li>
+                        <li id="tc"><strong>Tiago Cruz</strong>
+                            <div>
+                                <a href="https://www.instagram.com/tiago_cruzeta_/" target="_blank" >
+                                    <img src="https://image.flaticon.com/icons/png/512/717/717392.png" alt="icon instagram">
+                                </a>
+                                <a href="https://t.me/tiago_cruzeta" target="_blank">
+                                    <img src="https://image.flaticon.com/icons/png/512/2111/2111708.png" alt="icon telegram">
+                                </a> <br>
+                                <a href="https://github.com/Cruzeta" target="_blank">
+                                    <img src="https://image.flaticon.com/icons/png/512/733/733609.png" alt="icon github">
+                                </a>
+                                <a href="https://www.facebook.com/profile.php?id=100024770268756">
+                                    <img src="https://image.flaticon.com/icons/png/512/2111/2111392.png" alt="icon facebook">
+                                </a>
+                            </div>                       
+                        </li>
+                        <li id="dl"><strong>Dinis Lima</strong>
+                            <div>
+                                <a href="https://www.instagram.com/_lima2105_/">
+                                    <img src="https://image.flaticon.com/icons/png/512/717/717392.png" alt="icon instagram">
+                                </a>
+                            </div>                       
+                        </li>
+                    </ul>
+                </div>
+            </footer>  
+        </body>
+</html>
